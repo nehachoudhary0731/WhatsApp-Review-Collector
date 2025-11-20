@@ -38,17 +38,24 @@ venv\Scripts\activate
 - Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
+
  2.Install Dependencies
+  
 pip install -r requirements.txt
 
 3.Run the Backend Server
+
 uvicorn app.main:app --reload --port 8000
 
 ## Frontend Setup (React)
-1.Open New Terminal & Navigate to Frontend (cd frontend)
+1.Open New Terminal & Navigate to Frontend 
+
+(cd frontend)
 
 2.Install Dependencies
+
 npm install
 
 3.Start Development Server
+
 npm run dev
