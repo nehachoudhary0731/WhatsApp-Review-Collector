@@ -29,14 +29,13 @@ Before running this project, ensure you have installed:
 git clone https://github.com/nehachoudhary0731/WhatsApp-Review-Collector.git
 cd WhatsApp-Review-Collector
 ```
-  2. Backend Setup (FastAPI)
+ 2. Backend Setup (FastAPI)
 1.Navigate to Backend Directory
 cd backend
-# Windows
+- Windows
 python -m venv venv
 venv\Scripts\activate
-
-# Mac/Linux
+- Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
  2.Install Dependencies
@@ -47,7 +46,9 @@ uvicorn app.main:app --reload --port 8000
 
 ## Frontend Setup (React)
 1.Open New Terminal & Navigate to Frontend (cd frontend)
+
 2.Install Dependencies
 npm install
+
 3.Start Development Server
 npm run dev
